@@ -9,12 +9,12 @@ const iOSUIKitDenseScreen = ({ navigation }) => {
       blackStyles={[
         {
           style: iOSUIKitDense.largeTitleEmphasized,
-          text: "你送了一封電子郵件。",
+          text: "你送了一封...",
           name: "largeTitleEmphasized"
         },
         {
           style: iOSUIKitDense.title3Emphasized,
-          text: "你送了一封電子郵件。",
+          text: "你送了一封電子...",
           name: "title3Emphasized"
         },
         {
@@ -76,12 +76,12 @@ const iOSUIKitDenseScreen = ({ navigation }) => {
       whiteStyles={[
         {
           style: iOSUIKitDense.largeTitleEmphasizedWhite,
-          text: "你送了一封電子郵件。",
+          text: "你送了一封...",
           name: "largeTitleEmphasizedWhite"
         },
         {
           style: iOSUIKitDense.title3EmphasizedWhite,
-          text: "你送了一封電子郵件。",
+          text: "你送了一封電子...",
           name: "title3EmphasizedWhite"
         },
         {

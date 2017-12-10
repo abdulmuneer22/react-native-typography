@@ -1,63 +1,63 @@
 import React from "react";
 import { StyleSheet } from "react-native";
-import { human, systemWeights } from "react-native-typography";
+import { human, systemDenseWeights } from "react-native-typography";
 import TypeDemoScreen from "./TypeDemoScreen";
 
-const SystemWeightsScreen = ({ navigation }) => {
+const SystemDenseWeightsScreen = ({ navigation }) => {
   return (
     <TypeDemoScreen
       navigation={navigation}
       blackStyles={[
         {
           style: styles.thin,
-          text: "System Thin",
+          text: "텍스트 가중치",
           name: "thin"
         },
         {
           style: styles.light,
-          text: "System Light",
+          text: "텍스트 가중치",
           name: "light"
         },
         {
           style: styles.regular,
-          text: "System Regular",
+          text: "텍스트 가중치",
           name: "regular"
         },
         {
           style: styles.semibold,
-          text: "System Semibold",
+          text: "텍스트 가중치",
           name: "semibold"
         },
         {
           style: styles.bold,
-          text: "System Bold",
+          text: "텍스트 가중치",
           name: "bold"
         }
       ]}
       whiteStyles={[
         {
           style: styles.thinWhite,
-          text: "System Thin",
+          text: "텍스트 가중치",
           name: "thin"
         },
         {
           style: styles.lightWhite,
-          text: "System Light",
+          text: "텍스트 가중치",
           name: "light"
         },
         {
           style: styles.regularWhite,
-          text: "System Regular",
+          text: "텍스트 가중치",
           name: "regular"
         },
         {
           style: styles.semiboldWhite,
-          text: "System Semibold",
+          text: "텍스트 가중치",
           name: "semibold"
         },
         {
           style: styles.boldWhite,
-          text: "System Bold",
+          text: "텍스트 가중치",
           name: "bold"
         }
       ]}
@@ -68,44 +68,44 @@ const SystemWeightsScreen = ({ navigation }) => {
 const styles = StyleSheet.create({
   thin: {
     ...human.title1Object,
-    ...systemWeights.thin
+    ...systemDenseWeights.thin
   },
   light: {
     ...human.title1Object,
-    ...systemWeights.light
+    ...systemDenseWeights.light
   },
   regular: {
     ...human.title1Object,
-    ...systemWeights.regular
+    ...systemDenseWeights.regular
   },
   semibold: {
     ...human.title1Object,
-    ...systemWeights.semibold
+    ...systemDenseWeights.semibold
   },
   bold: {
     ...human.title1Object,
-    ...systemWeights.bold
+    ...systemDenseWeights.bold
   },
   thinWhite: {
     ...human.title1WhiteObject,
-    ...systemWeights.thin
+    ...systemDenseWeights.thin
   },
   lightWhite: {
     ...human.title1WhiteObject,
-    ...systemWeights.light
+    ...systemDenseWeights.light
   },
   regularWhite: {
     ...human.title1WhiteObject,
-    ...systemWeights.regular
+    ...systemDenseWeights.regular
   },
   semiboldWhite: {
     ...human.title1WhiteObject,
-    ...systemWeights.semibold
+    ...systemDenseWeights.semibold
   },
   boldWhite: {
     ...human.title1WhiteObject,
-    ...systemWeights.bold
+    ...systemDenseWeights.bold
   }
 });
 
-export default SystemWeightsScreen;
+export default SystemDenseWeightsScreen;
